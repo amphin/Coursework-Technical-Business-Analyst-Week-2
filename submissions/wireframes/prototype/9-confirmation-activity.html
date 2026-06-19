@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9 - Confirmation & Activity</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-number">9</div>
+    <header class="app-header">
+      <div class="brand">Smart-Recovery</div>
+      <nav class="top-nav">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a>
+        <a href="5-debt-case-detail.html">My Debts</a>
+        <a href="10-agent-managed-case.html">Help</a>
+        <a href="1-login.html">Log Out</a>
+      </nav>
+    </header>
+
+    <main class="screen" style="max-width: 1250px">
+      <h1>Arrangement Confirmed</h1>
+      <p class="subtitle">Your repayment arrangement has been submitted and recorded.</p>
+
+      <p class="section-title">Confirmation Details</p>
+      <section class="panel" style="max-width: 980px; margin-bottom: 26px">
+        <table class="table">
+          <tr><td style="width: 38%">Reference Number</td><td>ARR-000001</td></tr>
+          <tr><td>Submitted</td><td>DD/MM/YYYY at HH:MM</td></tr>
+          <tr><td>Arrangement Type</td><td>Payment Plan</td></tr>
+          <tr><td>Instalment Amount</td><td>£ ___ . __ per month</td></tr>
+          <tr><td>Start Date</td><td>DD/MM/YYYY</td></tr>
+          <tr><td>Estimated Completion Date</td><td>DD/MM/YYYY</td></tr>
+        </table>
+      </section>
+
+      <p class="section-title">Recent Account Activity</p>
+      <table class="table" style="max-width: 1120px; margin-bottom: 28px">
+        <thead>
+          <tr><th>Date / Time</th><th>Action</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>DD/MM/YYYY HH:MM</td><td class="mono">Payment plan arrangement created</td><td>Confirmed</td></tr>
+          <tr><td>DD/MM/YYYY HH:MM</td><td class="mono">Arrangement reviewed and declaration signed</td><td>Complete</td></tr>
+          <tr><td>DD/MM/YYYY HH:MM</td><td class="mono">Multi-factor authentication completed</td><td>Complete</td></tr>
+          <tr><td>DD/MM/YYYY HH:MM</td><td class="mono">Account accessed via self-service portal</td><td>Complete</td></tr>
+        </tbody>
+      </table>
+
+      <p class="section-title">Reminder Preferences</p>
+      <section class="panel" style="max-width: 560px">
+        <p class="small-text">Choose how you would like to receive payment reminders.</p>
+        <div class="stack" style="gap: 8px; margin-bottom: 18px">
+          <label class="checkbox-row"><input type="checkbox" /> Email reminders</label>
+          <label class="checkbox-row"><input type="checkbox" /> SMS reminders</label>
+        </div>
+        <a class="btn" style="width: fit-content; padding: 0 24px; height: 40px; margin: 0" href="4-debt-summary-dashboard.html">Save preferences</a>
+      </section>
+
+      <div class="button-row">
+        <a class="btn" href="4-debt-summary-dashboard.html">Return to dashboard</a>
+      </div>
+    </main>
+  </body>
+</html>

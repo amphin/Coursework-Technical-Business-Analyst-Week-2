@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 - Debt Summary Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-number">4</div>
+    <header class="app-header">
+      <div class="brand">Smart-Recovery</div>
+      <nav class="top-nav">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a>
+        <a href="5-debt-case-detail.html">My Debts</a>
+        <a href="10-agent-managed-case.html">Help</a>
+        <a href="1-login.html">Log Out</a>
+      </nav>
+    </header>
+
+    <main class="screen">
+      <h1>Your Debt Summary</h1>
+      <p class="subtitle">All accounts currently referred to the Smart-Recovery service.</p>
+
+      <section class="panel summary-total">
+        <div class="summary-meta">
+          <span>Total Outstanding Balance</span>
+          <span>As at DD/MM/YYYY HH:MM</span>
+        </div>
+        <div class="amount">£ __, ____ . _ _</div>
+      </section>
+
+      <section class="case-grid">
+        <article class="panel">
+          <div class="label">Product Type</div>
+          <div class="value">Personal Loan</div>
+          <div class="label">Account Reference</div>
+          <div class="value mono">PLN-000001</div>
+          <div class="label">Outstanding Balance</div>
+          <div class="value">£ __, ___ . _ _</div>
+          <div class="label">Case Status <span class="badge" style="float:right">Active</span></div>
+          <a class="select-btn" href="5-debt-case-detail.html">View details</a>
+        </article>
+
+        <article class="panel">
+          <div class="label">Product Type</div>
+          <div class="value">Credit Card</div>
+          <div class="label">Account Reference</div>
+          <div class="value mono">CCT-000002</div>
+          <div class="label">Outstanding Balance</div>
+          <div class="value">£ _, ___ . _ _</div>
+          <div class="label">Case Status <span class="badge mono" style="float:right">Promise to Pay</span></div>
+          <a class="select-btn" href="5-debt-case-detail.html">View details</a>
+        </article>
+
+        <article class="panel">
+          <div class="label">Product Type</div>
+          <div class="value">Overdraft</div>
+          <div class="label">Account Reference</div>
+          <div class="value mono">OVD-000003</div>
+          <div class="label">Outstanding Balance</div>
+          <div class="value">£ ___ . _ _ _</div>
+          <div class="label">Case Status <span class="badge mono" style="float:right">Agent Managed</span></div>
+          <a class="select-btn" href="5-debt-case-detail.html">View details</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

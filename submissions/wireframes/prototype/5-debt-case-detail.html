@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 - Debt Case Detail</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-number">5</div>
+    <header class="app-header">
+      <div class="brand">Smart-Recovery</div>
+      <nav class="top-nav">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a>
+        <a href="5-debt-case-detail.html">My Debts</a>
+        <a href="10-agent-managed-case.html">Help</a>
+        <a href="1-login.html">Log Out</a>
+      </nav>
+    </header>
+
+    <main class="screen">
+      <div class="breadcrumbs">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a> &#8250; Debt Case Detail
+      </div>
+
+      <h1>Debt Case Detail</h1>
+
+      <p class="section-title">Account Information</p>
+      <section class="panel" style="max-width: 980px; margin-bottom: 28px">
+        <table class="table">
+          <tr><td style="width: 38%">Original Debt</td><td>£ __, ___ . _ _</td></tr>
+          <tr><td>Interest and Fees Accrued</td><td>£ ___ . _ _</td></tr>
+          <tr><td>Total Payments Made</td><td>£ ___ . _ _</td></tr>
+          <tr><td>Current Balance</td><td>£ __, ___ . _ _</td></tr>
+          <tr><td>Case Status</td><td>Active</td></tr>
+        </table>
+      </section>
+
+      <p class="section-title">Payment History</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Payment Method</th>
+            <th>Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>£ ___ . _ _</td>
+            <td class="mono">Direct Debit</td>
+            <td class="mono">PMT-000001</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>£ ___ . _ _</td>
+            <td class="mono">Card Payment</td>
+            <td class="mono">PMT-000002</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>£ ___ . _ _</td>
+            <td class="mono">Bank Transfer</td>
+            <td class="mono">PMT-000003</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="button-row">
+        <a class="btn" href="9-confirmation-activity.html">View activity log</a>
+        <a class="btn" href="6-choose-next-action.html">Continue</a>
+        <a href="10-agent-managed-case.html">This case requires agent assistance</a>
+      </div>
+    </main>
+  </body>
+</html>

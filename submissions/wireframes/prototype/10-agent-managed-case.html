@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 - Agent Managed Case</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-number">10</div>
+    <header class="app-header">
+      <div class="brand">Smart-Recovery</div>
+      <nav class="top-nav">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a>
+        <a href="5-debt-case-detail.html">My Debts</a>
+        <a href="10-agent-managed-case.html">Help</a>
+        <a href="1-login.html">Log Out</a>
+      </nav>
+    </header>
+
+    <main class="screen" style="max-width: 1120px">
+      <div class="notice">This case is currently managed by a collections agent. Self-service actions are unavailable.</div>
+
+      <div class="breadcrumbs">
+        <a href="4-debt-summary-dashboard.html">Dashboard</a> &#8250;
+        <a href="5-debt-case-detail.html">Debt Case Detail</a> &#8250; Agent Managed Case
+      </div>
+
+      <h1>Agent Managed Case</h1>
+      <p class="subtitle">This account requires specialist handling. You may request a callback using the form below.</p>
+
+      <p class="section-title">Reason for Agent Handling</p>
+      <section class="panel" style="max-width: 980px; margin-bottom: 24px">
+        <p class="small-text">[ Reason placeholder - e.g. Account flagged as potentially vulnerable / High-balance case / Active dispute ]</p>
+      </section>
+
+      <p class="section-title">Case Summary (Read Only)</p>
+      <section class="panel" style="max-width: 980px; margin-bottom: 20px">
+        <table class="table">
+          <tr><td style="width: 38%">Product Type</td><td>Personal Loan</td></tr>
+          <tr><td>Account Reference</td><td>PLN-000001</td></tr>
+          <tr><td>Outstanding Balance</td><td>£ __, ___ . _ _</td></tr>
+          <tr><td>Case Status</td><td>Agent Managed</td></tr>
+          <tr><td>Assigned Agent Reference</td><td>AGT-____</td></tr>
+        </table>
+      </section>
+
+      <p class="small-text" style="margin-bottom: 20px">
+        Unable to submit callback request. Please try again or contact us directly using the details below.
+      </p>
+
+      <p class="section-title">Request a Callback</p>
+      <section class="panel" style="max-width: 980px">
+        <p class="small-text" style="margin-top: 0">A collections agent will contact you at your preferred date and time.</p>
+        <div class="field-row">
+          <div class="field small">Preferred date (DD/MM/YYYY)</div>
+          <div class="field small">Preferred time</div>
+        </div>
+        <textarea class="field small">Additional notes (optional)</textarea>
+        <a class="btn" style="width: fit-content; min-width: 220px; padding: 0 20px; margin: 0" href="9-confirmation-activity.html">Submit callback request</a>
+      </section>
+    </main>
+  </body>
+</html>
